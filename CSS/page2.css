@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+.Div_navbar{
+    color: aqua;
+    margin-bottom: 200px;
+}
+
+.navbar{
+    background-color: aquamarine;
+    color: white;
+}
+
+.foooter{
+    background-color: #0056b3;
+    text-align: center;
+    padding: 30px;
+}
+
+.drop-zone {
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 1rem;
+    background-image: url("https://sun9-33.userapi.com/impf/hytyy-_SdkYRAMo_dJ2jVfc0NdKAdl9tf3uIfA/8cFePNVGLPg.jpg?size=600x600&quality=96&sign=2290fb701436a1ca99e4ca01a319c43d&c_uniq_tag=5ac0i5b2ZHONisIpVT9eK1jQKx2_Vwi42nMYXgGnotI&type=album");
+    opacity: 0.4;
+}
