@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+.Div_navbar{
+    text-align: center;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.navbar{
+    background-color: aquamarine;
+    color: white;
+}
+
+#myCarousel {
+    max-height: none;
+  }
+
+.container{
+    margin-bottom: 200px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #191970; /* Изменение цвета фона на черный */
+    color: #fff; /* Изменение цвета текста на белый */
+    font-size: 18px; /* Увеличение размера шрифта */
+    font-weight: bold; /* Сделать текст жирным */
+}
+
+.music-block {
+    background-color: #f0f0f0; /* Задний фон блока */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .music-block h2 {
+    color: #333; /* Цвет заголовка */
+  }
+  
+  .music-block p {
+    color: #666; /* Цвет текста */
+  }
+  
+  .music-block .btn-primary {
+    background-color: #007bff; /* Цвет кнопки */
+    border-color: #007bff;
+  }
+  
+  .music-block .btn-primary:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+    border-color: #0056b3;
+  }
+
+
+  .animated-card {
+    transform: translateX(-100%);
+    transition: transform 1s;
+  }
+
+.row{
+    text-align: center;
+    left: 50%;
+}
+
+.foooter{
+    background-color: #0056b3;
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

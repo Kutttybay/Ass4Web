@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+.Div_navbar{
+    color: aqua;
+    margin-bottom: 200px;
+}
+
+.navbar{
+    background-color: aquamarine;
+    color: white;
+}
+
+.list-group-item {
+    background: rgb(70, 130, 180, 0.7);
+}
+
+.section1{
+    margin-bottom: 200px;
+}
+
+.static-container {
+    display: block; /* Оставляем контейнер статичным */
+  }
+  
+  .form-container {
+    display: none; /* Начинаем с контейнера скрытым */
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.container{
+    margin-bottom: 200px;
+}
+
+.foooter{
+    background-color: #0056b3;
+    text-align: center;
+    padding: 30px;
+}
