@@ -16,7 +16,7 @@ var personData = {
   
   // Функция для воспроизведения звука
   function playSound() {
-    var audio = new Audio("звук.mp3"); // Укажите путь к вашему аудиофайлу
+    var audio = new Audio("звук.mp3");
     audio.play();
   }
   
@@ -28,12 +28,12 @@ var personData = {
 
   // Наведение на кнопку - изменение цвета фона
 document.getElementById("fillFormAndPlaySound").addEventListener("mouseover", function() {
-    this.style.backgroundColor = "red"; // Измените цвет на желаемый
+    this.style.backgroundColor = "red";
   });
   
   // Убрать курсор с кнопки - возврат к исходному цвету
   document.getElementById("fillFormAndPlaySound").addEventListener("mouseout", function() {
-    this.style.backgroundColor = ""; // Сброс цвета
+    this.style.backgroundColor = "";
   });
   
   // Анимация появления формы
